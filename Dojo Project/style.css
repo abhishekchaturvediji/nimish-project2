@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+#back{
+    background-image: url(https://images.unsplash.com/photo-1539960467689-01d885747185?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&auto=format&fit=crop&w=749&q=80);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+#img{
+    position: absolute;
+    background-image: url(front.jpg);
+    height: 60%;
+    width: 45%;
+    right: 13%;
+    bottom: 15%;
+    background-position: center;
+    background-size: cover;
+}
+#menu{
+    position: absolute;
+    left: 67.778px;
+    top: 61.219px;
+    color: white;
+}
+#social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 67.778px;
+    bottom: 61.219px;
+}
+#social i{
+    margin-top: 20px;
+    color: white;
+}
+#link{
+    position: absolute;
+    display: flex;
+    top: 61.219px;
+    right: 130px;
+}
+#link a{
+    color: white;
+    margin-left: 80px;
+    height: 24px;
+    width: 24px;
+    text-decoration: none;
+}
+h2{
+    color: white;
+    position: absolute;
+    top: 61px;
+    left: 115px;
+    font-size: 16px;
+    font-weight: 400;
+}
+p{
+    color: white;
+    position: absolute;
+    left: 42.2%;
+    top: 21%;
+}
+.para{
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+}
+.para #a{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+.para #b{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+#c{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgb(65, 55, 55);
+} 
